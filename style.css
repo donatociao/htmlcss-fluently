@@ -58,7 +58,8 @@ header:after {
 
 .btn {
   border-radius: 5px;
-  padding: 10px
+  padding: 10px;
+  text-decoration: none;
 }
 
 .green {
@@ -99,15 +100,13 @@ header:after {
 .under-header,
 .row  {
   width: 100%;
-  height: 150px;
+  height: auto;
   background-color: #f9f9f9;
-  text-align: center;
   font-size: 20px;
 }
 
-.under-header > h2,
-.under-header > p {
-transform: translateY(40px);
+.under-header {
+  padding: 30px 0;
 }
 
 .under-header > p {
@@ -122,8 +121,6 @@ transform: translateY(40px);
 
 
 /* TRE COLONNE */
-
-
 .three-cols .col3 img {
   width: 40%;
   margin: 20px 0;
@@ -195,23 +192,194 @@ transform: translateY(40px);
  /*  FINE DUE COLONNE*/
 
  /* RIGA  */
+.container-row:first-child h2 {
+  margin-left: 100px;
+}
 
-.row .container1,
-.row .container2 {
+.container-row {
+  width: 50%;
+  float: left;
+  padding: 30px 0;
+}
+
+.container-row * {
   float: left;
 }
 
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.select {
+  margin: 0 70px;
+  border-bottom: 2px solid grey;
+}
+
+.select i {
+  padding: 5px 30px;
+}
+
+.row .btn {
+  text-decoration: none;
+  color: white;
+}
 /* FINE RIGA  */
 
+/* LEZIONI BLU  */
+.blue-section {
+  width: 100%;
+  height: 100%;
+  background-color: #0d325a;
+}
+
+.col2-blu {
+  width: 50%;
+  position: relative;
+  float: left;
+}
 
 
-/* .help {
-  height: 70px;
-  width: auto;
-  background-color: #7bbc00;
-  text-align: center;
-  position: fixed;
-  transform: translate(1000px, 20%);
+.col2-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(150px);
+  padding: 0 60px;
+  margin: auto;
+}
+
+.blue-section {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.col2-blu img {
+  transform: translate(60%);
+}
+
+.col2-text * {
+  padding: 20px;
   color: white;
-  padding: 10px ;
-} */
+}
+
+.col2-text p {
+  color: #999;
+}
+
+.col2-text a {
+color: #98c8f8;
+}
+
+.col2-text span {
+  padding: 0;
+  color: orange;
+}
+
+.col2-text h1 {
+  font-size: 30px;
+}
+/* FINE LEZIONI BLU  */
+
+/* MANI  */
+.mani {
+  padding: 50px 0;
+}
+.mani:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.col2-mani,
+.col2-mani-text {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+.mani-text {
+  position:absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(10%);
+  padding: 50px;
+}
+
+.mani-text * {
+  padding: 20px;
+}
+
+.mani-text span {
+  width: 100px;
+  text-align: center;
+}
+
+.col2-mani img {
+padding: 50px;
+}
+
+.mani-text a {
+  color: white;
+}
+/* FINE MANI  */
+
+/* PC  */
+
+.center-pc {
+  width: 50%;
+  margin: auto;
+}
+.center-pc img {
+  margin-top: 40px;
+}
+.center-pc * {
+  padding: 10px;
+}
+
+.center-pc:last-child {
+padding-bottom: 20px;
+}
+
+/* FINE PC  */
+
+/* AZIENDA  */
+.latuaazienda {
+background-color: #0d325a;
+height: 400px;
+}
+
+.aziend-sx-col *{
+  width: 60%;
+  color: white;
+  padding-top: 20px;
+}
+
+.aziend-sx-col {
+    position: relative;
+}
+
+.azienda-text {
+  padding: 20px;
+  margin-left: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(10%);
+  padding: 40px;
+}
+
+.azienda-text h1 {
+  font-size: 30px;
+}
+
+.azienda-text p {
+  color: #999;
+}
+
+.azienda-text a {
+ color:  #98c8f8;
+}
+/* FINE AZIENDA  */

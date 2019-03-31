@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <title>Fluentify</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <header>
+
+      <!-- HEADER + NAVBAR -->
       <div class="nav">
         <img class="logo" src="img/logo.svg">
         <ul class="nav-left">
@@ -29,11 +32,17 @@
         </div>
       </section>
     </header>
-    <div class="under-header">
-      <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
-      <p>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
-    </div>
-    <!-- <div class="help">HELP</div> -->
+
+    <!-- UNDER HEADER -->
+    <section>
+      <div class="under-header text-center">
+        <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
+        <p>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
+      </div>
+    </section>
+
+
+    <!-- TRE COLONNE -->
     <section class="three-cols">
       <div class="col3 text-center">
         <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/profile.svg?v9">
@@ -54,29 +63,97 @@
         <p>Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato test di partenza per definire il livello e impostare gli obiettivi da raggiungere.</p>
       </div>
     </section>
-
     <hr>
 
+    <!-- DUE COLONNE -->
     <section class="two-cols text-left">
       <div class="col2">
         <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/mountain.svg?v9">
       </div>
-      <div class="col2">
-        <h1>Scopri il tuo livello iniziale e struttura un piano personalizzato</h1>
-        <p>L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
-        <p><a href="#">Scopri il nostro test di placement</a></p>
+      <div class="col2 col2-dx">
+        <div class="col2-txt vert-center">
+          <h1>Scopri il tuo livello iniziale e struttura un piano personalizzato</h1>
+          <p>L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
+          <p><a href="#">Scopri il nostro test di placement</a></p>
+        </div>
       </div>
     </section>
 
-    <div class="row">
-      <div class="container1">
+    <!--  RIGA -->
+    <section class="row">
+      <div class="container-row">
         <h2>Struttura un piano</h2>
       </div>
-      <div class="container2">
+      <div class="container-row">
         <h3>Sono</h3>
-        <span><h3>seleziona</h3></span>
+        <div class="select">
+          <h4>seleziona</h4>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <a class="green btn" href="#">Visualizza il tuo Piano</a>
       </div>
+    </section>
 
+    <!--  LEZIONI BLU -->
+    <section class="blue-section">
+      <div class="col2-blu">
+        <div class="col2-text">
+          <h1>Le nostre lezioni <span>one to one</span></h1>
+          <p>Sessioni online one to one in tempo reale della durata di 30 minuti ciascuna con tutor madrelingua inglese selezionati. </p>
+          <p>Tutto si svolge comodamente via webcam direttamente dalla nostra piattaforma.</p>
+          <a href="#">Tutto sulle lezioni</a>
+        </div>
+      </div>
+      <div class="col2-blu">
+        <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/791x498xonetoone_session_pc.png,qv9.pagespeed.ic.Nk2uee678w.webp">
+      </div>
+    </section>
+
+    <!--  MANI -->
+    <section class="mani">
+      <div class="col2-mani">
+        <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/shakehands.svg?v9">
+      </div>
+      <div class="col2-mani">
+        <div class="mani-text">
+          <h1>Solo l’inglese che ti serve davvero</h1>
+          <p>Molto più di semplici conversazioni, le sessioni coni nostri tutor ricreano le più diverse situazioni professionali.</p>
+          <div>
+            <a class="green btn" href="#">SCOPRI IL REAL-LIFE ENGLISH</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- PC -->
+    <section class="col-pc">
+      <div class="center-pc text-center">
+        <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/set.svg?v9">
+        <h1>Ci trovi su Pc, Mobile e Tablet, 24/7.</h1>
+        <p>Tutor da tutto il mondo disponibili 24 ore al giorno 7 giorni su 7, anche nei weekend.</p>
+        <p>Tutto direttamente sul tuo pc grazie alla videoconferenza integrata nella piattaforma e sui dispositivi mobile con la app dedicata.</p>
+        <div> <a href="#">Come funziona</a></div>
+      </div>
+    </section>
+
+    <!-- AZIENDA  -->
+    <section class="latuaazienda">
+      <div class="aziend-sx-col">
+          <div class="azienda-text">
+            <h1>Fai parlare inglese la tua azienda</h1>
+            <p>Piani formativi personalizzati e specifici per ogni esigenza, con tutti gli strumenti di controllo che ti servono per monitorare il tuo investimento.</p>
+            <div><a href="#">SCOPRI COME</a></div>
+          </div>
+      </div>
+    </section>
+
+    <!-- STRUTTURA UN PIANO -->
+
+
+
+
+    <!-- FOOTER -->
 
 
 
