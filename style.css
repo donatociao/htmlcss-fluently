@@ -383,3 +383,45 @@ height: 400px;
  color:  #98c8f8;
 }
 /* FINE AZIENDA  */
+
+ /* STRUTTURA UN PIANO */
+.piano-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.piano-sx,
+.piano-cn,
+.piano-dx {
+  width: 30%;
+  float:left;
+  margin-top: 20px;
+}
+
+.piano-cn {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.piano-container img {
+  width: 50px;
+}
+.piano-container div {
+  margin: 20px 10px;;
+}
+.piano-container h3,
+.piano-container p {
+  padding: 20px 0;
+}
+
+.piano-sx p {
+  border-bottom: 3px solid #98c8f8;
+}
+
+.piano-cn p {
+  border-bottom: 3px solid #f8b71c;;
+}
+
+.piano-dx p {
+  border-bottom: 3px solid #7fb802;
+}
